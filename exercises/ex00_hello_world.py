@@ -1,4 +1,3 @@
-
 """my first program of Comp 110"""
 
 __author__ = "730566506"
