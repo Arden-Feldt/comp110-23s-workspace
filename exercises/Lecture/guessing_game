@@ -1,0 +1,16 @@
+SECRET: int = 4
+guess: int = int(input("Guess a number! "))
+playing: bool = True
+
+while playing:
+    if guess == SECRET:
+        print("Yay!, gg go next.")
+        playing = False
+    else:
+        print("Wrong number :( go next.")
+        if guess % 2 == 1: 
+            print("Hey beef, the number is actually even")
+        else:
+            print("your answer is actually " + str(abs(guess-SECRET)) + " off. go next.")
+        guess = int(input("Try again bubsy "))
+
