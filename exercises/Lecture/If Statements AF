@@ -1,2 +1,14 @@
 print("well do you?\n...who's there??")
 
+def mimic (my_words: str, letter_idx: int) -> str:
+    """Blah"""
+    if(letter_idx>=len(my_words)):
+        return "To high of an index"
+    
+    return my_words[letter_idx]
+
+print(mimic("Call this Mf", 3))
+
+print(mimic("Print this mf", 4))
+
+print(mimic("Print this mf", 44))
